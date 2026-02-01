@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Valentine</title>
+<style>
+body {
+  background: #ffc0cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+  text-align: center;
+}
+.box {
+  background: white;
+  padding: 40px;
+  border-radius: 40px;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <div style="font-size:60px;">❤️</div>
+  <h1 id="text">Paneeni Will you be my Valentine?</h1>
+  <button onclick="yes()">Yes</button>
+  <button onclick="no()">No</button>
+</div>
+
+<script>
+function yes() {
+  window.location.href = "yes.html";
+}
+function no() {
+  window.location.href = "no.html";
+}
+</script>
+
+</body>
+</html>
